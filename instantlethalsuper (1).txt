@@ -3778,7 +3778,10 @@ AntiTab:Toggle({
         end
     end
 })
-                             
+
+local AntiTab2 = Window:Tab({ Title = "Anti 2", Icon = "shield" })
+
+
 --// ===============================
 --// SLICK BACK TECH TAB (Textbox version)
 --// ===============================
@@ -3922,6 +3925,7 @@ Content:Input({   -- or :TextInput if your WindUI fork prefers that name
     end
 
 })
+
 
 
 
